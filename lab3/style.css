@@ -1,0 +1,29 @@
+html, body {
+    overflow: hidden;
+    margin: 0px;
+    font-family: sans-serif;
+}
+canvas {
+    position: absolute;
+}
+#help-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16pt;
+    padding: 15px;
+}
+#help-box p {
+    margin: 2px;
+}
+.bottom-div {
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1px;
+}
+#help-dir {
+    right: 5px;
+    bottom: 5px;
+}
